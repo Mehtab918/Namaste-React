@@ -16,3 +16,22 @@ b) using CDN links: <!-- <script crossorigin src="https://unpkg.com/react@18/umd
         <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>  -->
 
 b option is not a good way to bring react to our project. 
+
+# Parcel
+
+- Dev build
+- Creating local server
+- HMR ( Hot Module Replacement) - ( automatically refresh or reload the page after save )
+- File Watching Algorithm- written in C++
+- Cache- Faster build (Parcel-cache)
+- Image Optimization
+- Minification 
+- Compressing file
+- Bundling(bundle the file )
+- Content Hashing 
+- Code splitting
+- Differential Bundling( support order version - browserList)
+- Error handling
+- Diagnostic
+- Hosting app in Https Env
+- Tree Shaking Algorithm - remove unused code from App.
