@@ -79,7 +79,8 @@ example - 2
 //   <div>  
 // </div>
 
-
+import React from "react";
+import ReactDOM from "react-dom/client";
 const parent = React.createElement("parent",{id:"parent"},[
                React.createElement("div",{id:"child1"},
           React.createElement("h1",{} ,"Hello Mehtab ")
