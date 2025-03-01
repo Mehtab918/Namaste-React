@@ -43,6 +43,31 @@ We can build projects without JSX also , but we should not do that. Good way is 
 
 Facebook developer introduce JSX to resolve nested issue of creating elements in react.
 
-![babel image]
+JSX(transpiled before it reaches to JS )-> Parcel is giving responsibilty to Babel library.
 
-[def]: image.png
+
+JSX => React.createElement=> ReactElement- Js Object => HtmlElement(render)
+Summary => At the end of the JSX is React.creatElement and it is Js object until it is not get rendered and become html element.
+
+NOTE: we can also create React Element using JSX - no longer use of React.createElement
+
+//Below code is JSX not HTML.
+/* const head=<h1 className="head">Hello React js </h1> */
+
+// JSX => Babel transpiled above code to React.createElement in background.
+ const head = React.createElement("h1",{"className"="head"},"Hello React Js")  
+ 
+ 
+
+# Babel
+Babel is a beautiful library which converts JSX code to React code.
+Babel library converts the JSX code to React code .
+Babel transpiled it to React.createElement .
+IT is perfect compiler that makes Javascript backward compatible.
+Use new feature in our development mode and convert stable old version which supports everywhere.
+
+Babel can do many things: 
+--------------------------
+a) transforms syntax
+b) source code transformation
+c) convert JSX syntax.
