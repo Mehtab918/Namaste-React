@@ -70,4 +70,4 @@ Babel can do many things:
 --------------------------
 -transforms syntax
 -source code transformation
-- convert JSX syntax.
+-convert JSX syntax.
