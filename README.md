@@ -35,3 +35,14 @@ b option is not a good way to bring react to our project.
 - Diagnostic
 - Hosting app in Https Env
 - Tree Shaking Algorithm - remove unused code from App.
+
+# JSX
+JSX and HTML both are like same on syntax base but both are differemt.
+JSX is not the part of React.
+We can build projects without JSX also , but we should not do that. Good way is to use it.
+
+Facebook developer introduce JSX to resolve nested issue of creating elements in react.
+
+![babel image]
+
+[def]: image.png
