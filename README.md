@@ -68,6 +68,6 @@ Use new feature in our development mode and convert stable old version which sup
 
 Babel can do many things: 
 --------------------------
-a) transforms syntax
-b) source code transformation
-c) convert JSX syntax.
+-transforms syntax
+-source code transformation
+- convert JSX syntax.
