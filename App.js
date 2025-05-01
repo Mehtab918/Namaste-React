@@ -193,10 +193,71 @@ const HeadingComponent3 = () => (
   
     <div>
    <h1>putting a javascript inside react component.</h1>
-       {element}  );
+       {element}  ;
     </div>
 );
-// can we write javascript code inside react ? 
+// can we react element inside functional component ?
 
 
+//react element for title.
+const title = (
+    <h1>React element for title.</h1>
+)
 
+//react component
+const HeadingComponent4 = () => (
+  
+    <div>
+   <h1>putting title react element inside react component.</h1>
+      
+        {title}
+    </div>
+);
+
+
+const HeadingComponent5 = () => (
+  
+    <div>
+   <h1>putting a javascript inside react component.</h1>
+       <HeadingComponent4 />
+    </div>
+);
+root.render(<HeadingComponent5/>);
+
+
+//can you put a react element inside another react element ?  Yes
+
+const elem = <h1>Putting a react element inside another react element</h1>;
+
+const box = <h1>Hello Box....
+    {elem}
+</h1>;
+
+root.render(box);
+
+
+const Title1 = () =>
+(
+    <h1 className ="title1">
+        React using JSX.
+    </h1>
+);
+
+const FunctionComponent =() =>
+{
+    <div className ="container">
+
+        <Title1 />
+        <Title1>   </Title1>
+        {Title1()}
+    </div>
+};
+
+root.render(<FunctionComponent/>);
+
+//3ways to call one component inside another component.
+/*
+1.  <Title1 />
+2.  <Title1>   </Title1>
+3.  {Title1()}
+*/
