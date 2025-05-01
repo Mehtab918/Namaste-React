@@ -134,10 +134,13 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 //JSX => React.createElement=> ReactElement- Js Object => HtmlElement(render)
 //Summary => At the end of the JSX is React.creatElement and it is Js object until it is not get rendered and become html element.
 
-const jsxHeading = (<h1 className="head" tabIndex="1">
+//REACT ELEMENT USING JSX
+const jsxHeading = (
+        <h1 className="head" tabIndex="1">
     Namaste React by  using JSX 
-    </h1>);
-
+    </h1>
+    );
+//Rendering the react element .
 root.render(jsxHeading);
 
 //NOTE: we can also create React Element using "<h1>Namaste React by  using JSX </h1>" - no longer use of React.createElement
@@ -147,11 +150,16 @@ root.render(jsxHeading);
  const head = React.createElement("h1",{"id"="morning"},"Hello React Js")  // these codes are purely same in background .
  Babel library converts the JSX code to React code .*/
    
+//Functional Component  - variables name should be start from capital letters.
 
+const HeadingComponent = () => (
+<div id ="container">
+<h1 className="heading">Functional components in React by Mehtab</h1>
+</div>
+);
 
-
-
-
+//to render a react component provide with tagName.  // rendering the functional component.
+root.render(<HeadingComponent/>);
 
 
 

@@ -1,4 +1,4 @@
-# Namaste React 
+# Namaste React 🚀
 
 A bundler in react.js is a tool which allows to package code into a single file or bundle. Due to this size of code will reduce and so performance of application will improve. Common bundlers used with React are Webpack and Parcel.
 
@@ -71,3 +71,13 @@ Babel can do many things:
 -transforms syntax
 -source code transformation
 -convert JSX syntax.
+
+
+# Functional Component
+
+Functional component is a function which returns any React elements
+Variables must be start with capital letter and arrow function must be there.
+To make any React Element(JSX) to React Component(Functional Based component) we have to make the Variable start with Capital letter
+and provide arrow function.
+
+
