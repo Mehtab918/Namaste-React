@@ -162,11 +162,41 @@ const HeadingComponent = () => (
 root.render(<HeadingComponent/>);
 
 
+// let's create another functional component 
+
+const TitleComponent = () => (
+    <h1 className="heading" tabIndex="5"> Namaste React using title functional component.</h1>
+
+)
 
 
+//lets create another functional component as HeadingComponent2 
+// can i render title component inside HeadingComponent2? - a big Yes
 
+//component composition - It is a technique of using one react component inside another React component. 
+const HeadingComponent2 = () => (
+    <div id="container">
+        <h1 className="heading2" tabIndex="5">Namaste React using HeadingComponent2.</h1>
+        <TitleComponent/> 
+        
+    </div>
+);
 
+root.render(<HeadingComponent2/>);
 
+// can we write javascript code inside react ? 
+
+const element = 1000;
+
+  
+const HeadingComponent3 = () => (
+  
+    <div>
+   <h1>putting a javascript inside react component.</h1>
+       {element}  );
+    </div>
+);
+// can we write javascript code inside react ? 
 
 
 
