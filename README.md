@@ -52,7 +52,7 @@ Summary => At the end of the JSX is React.creatElement and it is Js object until
 NOTE: we can also create React Element using JSX - no longer use of React.createElement
 
 //Below code is JSX not HTML.
-/* const head=<h1 className="head">Hello React js </h1> */
+const head= < h1 className="head">Hello React js </ h1 >
 
 // JSX => Babel transpiled above code to React.createElement in background.
  const head = React.createElement("h1",{"className"="head"},"Hello React Js")  
