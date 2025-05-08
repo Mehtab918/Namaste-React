@@ -104,6 +104,7 @@ import { jsx } from "react/jsx-runtime";
 const heading = React.createElement("h1",{"id":"heading"},"Namaste React");
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+//root.render(heading);
 
 // ReactDOM will take this object and convert it into HTMLElement(render) and do render on it and push it to the browser.
 // KEY POINTS TO REMEMBER : Whatever we have in the root will be replaced by the object . 
@@ -141,7 +142,7 @@ const jsxHeading = (
     </h1>
     );
 //Rendering the react element .
-// root.render(jsxHeading);
+//root.render(jsxHeading);
 
 //NOTE: we can also create React Element using "<h1>Namaste React by  using JSX </h1>" - no longer use of React.createElement
 
@@ -159,13 +160,13 @@ const HeadingComponent = () => (
 );
 
 //to render a react component provide with tagName.  // rendering the functional component.
-// root.render(<HeadingComponent/>);
+//root.render(<HeadingComponent/>);
 
 
 // let's create another functional component 
 
 const TitleComponent = () => (
-    <h1 className="heading" tabIndex="5"> Namaste React using title functional component.</h1>
+    <h1 className="heading" tabIndex="5"> Title component should print.</h1>
 
 )
 
@@ -176,13 +177,13 @@ const TitleComponent = () => (
 //component composition - It is a technique of using one react component inside another React component. 
 const HeadingComponent2 = () => (
     <div id="container">
-        <h1 className="heading2" tabIndex="5">Namaste React using HeadingComponent2.</h1>
+        <h1 className="heading2" tabIndex="5">HeadingComponent2 should print.</h1>
         <TitleComponent/> 
         
     </div>
 );
 
-// root.render(<HeadingComponent2/>);
+ root.render(<HeadingComponent2/>);
 
 // can we write javascript code inside react ? 
 
@@ -233,7 +234,7 @@ const box = <h1>Hello Box....
     {elem}
 </h1>;
 
-root.render(box);
+// root.render(box);
 
 
 const Title1 = () =>
@@ -253,7 +254,7 @@ const FunctionComponent =() =>
     </div>
 };
 
-root.render(<FunctionComponent/>);
+//root.render(<FunctionComponent/>);
 
 //3ways to call one component inside another component.
 /*

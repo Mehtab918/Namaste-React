@@ -766,6 +766,7 @@ const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
     "id": "heading"
 }, "Namaste React");
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
+//root.render(heading);
 // ReactDOM will take this object and convert it into HTMLElement(render) and do render on it and push it to the browser.
 // KEY POINTS TO REMEMBER : Whatever we have in the root will be replaced by the object . 
 /*
@@ -793,11 +794,11 @@ const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     children: "Namaste React by  using JSX"
 }, void 0, false, {
     fileName: "App.js",
-    lineNumber: 139,
+    lineNumber: 140,
     columnNumber: 9
 }, undefined);
 //Rendering the react element .
-// root.render(jsxHeading);
+//root.render(jsxHeading);
 //NOTE: we can also create React Element using "<h1>Namaste React by  using JSX </h1>" - no longer use of React.createElement
 /* const head=<h1 id="morning">Hello React js </h1>
 
@@ -810,25 +811,25 @@ const HeadingComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             children: "Functional components in React by Mehtab"
         }, void 0, false, {
             fileName: "App.js",
-            lineNumber: 157,
+            lineNumber: 158,
             columnNumber: 1
         }, undefined)
     }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 156,
+        lineNumber: 157,
         columnNumber: 1
     }, undefined);
 _c = HeadingComponent;
 //to render a react component provide with tagName.  // rendering the functional component.
-// root.render(<HeadingComponent/>);
+//root.render(<HeadingComponent/>);
 // let's create another functional component 
 const TitleComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
         className: "heading",
         tabIndex: "5",
-        children: " Namaste React using title functional component."
+        children: " Title component should print."
     }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 168,
+        lineNumber: 169,
         columnNumber: 5
     }, undefined);
 _c1 = TitleComponent;
@@ -841,25 +842,29 @@ const HeadingComponent2 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                 className: "heading2",
                 tabIndex: "5",
-                children: "Namaste React using HeadingComponent2."
+                children: "HeadingComponent2 should print."
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 179,
+                lineNumber: 180,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TitleComponent, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 180,
+                lineNumber: 181,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 178,
+        lineNumber: 179,
         columnNumber: 5
     }, undefined);
 _c2 = HeadingComponent2;
-// root.render(<HeadingComponent2/>);
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent2, {}, void 0, false, {
+    fileName: "App.js",
+    lineNumber: 186,
+    columnNumber: 14
+}, undefined));
 // can we write javascript code inside react ? 
 const element = 1000;
 const HeadingComponent3 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -868,7 +873,7 @@ const HeadingComponent3 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: "putting a javascript inside react component."
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 195,
+                lineNumber: 196,
                 columnNumber: 4
             }, undefined),
             element,
@@ -876,7 +881,7 @@ const HeadingComponent3 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 194,
+        lineNumber: 195,
         columnNumber: 5
     }, undefined);
 _c3 = HeadingComponent3;
@@ -886,7 +891,7 @@ const title = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     children: "React element for title."
 }, void 0, false, {
     fileName: "App.js",
-    lineNumber: 204,
+    lineNumber: 205,
     columnNumber: 5
 }, undefined);
 //react component
@@ -896,14 +901,14 @@ const HeadingComponent4 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: "putting title react element inside react component."
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 211,
+                lineNumber: 212,
                 columnNumber: 4
             }, undefined),
             title
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 210,
+        lineNumber: 211,
         columnNumber: 5
     }, undefined);
 _c4 = HeadingComponent4;
@@ -919,7 +924,7 @@ const elem = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     children: "Putting a react element inside another react element"
 }, void 0, false, {
     fileName: "App.js",
-    lineNumber: 230,
+    lineNumber: 231,
     columnNumber: 14
 }, undefined);
 const box = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -929,16 +934,16 @@ const box = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     ]
 }, void 0, true, {
     fileName: "App.js",
-    lineNumber: 232,
+    lineNumber: 233,
     columnNumber: 13
 }, undefined);
-root.render(box);
+// root.render(box);
 const Title1 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
         className: "title1",
         children: "React using JSX."
     }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 241,
+        lineNumber: 242,
         columnNumber: 5
     }, undefined);
 _c5 = Title1;
@@ -948,35 +953,31 @@ const FunctionComponent = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title1, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 250,
+                lineNumber: 251,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title1, {
                 children: "   "
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 251,
+                lineNumber: 252,
                 columnNumber: 9
             }, undefined),
             Title1()
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 248,
+        lineNumber: 249,
         columnNumber: 5
     }, undefined);
-};
-_c6 = FunctionComponent;
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FunctionComponent, {}, void 0, false, {
-    fileName: "App.js",
-    lineNumber: 256,
-    columnNumber: 13
-}, undefined)); //3ways to call one component inside another component.
+}; //root.render(<FunctionComponent/>);
+ //3ways to call one component inside another component.
  /*
 1.  <Title1 />
 2.  <Title1>   </Title1>
 3.  {Title1()}
 */ 
+_c6 = FunctionComponent;
 var _c, _c1, _c2, _c3, _c4, _c5, _c6;
 $RefreshReg$(_c, "HeadingComponent");
 $RefreshReg$(_c1, "TitleComponent");
