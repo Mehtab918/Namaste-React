@@ -780,7 +780,7 @@ const root = (0, _clientDefault.default).createRoot(document.getElementById("roo
 // JSX is not the part of React.
 // const heading = React.createElement("h1",{"id":"heading"},"Namaste React");
 // const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
+//  root.render(heading);
 //or 
 //JSX(transpiled before it reaches to JS )-> Parcel is giving responsibilty to Babel library.
 //Babel is a beautiful library which converts JSX code to React code.
@@ -797,7 +797,7 @@ const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     columnNumber: 9
 }, undefined);
 //Rendering the react element .
-root.render(jsxHeading);
+// root.render(jsxHeading);
 //NOTE: we can also create React Element using "<h1>Namaste React by  using JSX </h1>" - no longer use of React.createElement
 /* const head=<h1 id="morning">Hello React js </h1>
 
@@ -820,11 +820,7 @@ const HeadingComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
     }, undefined);
 _c = HeadingComponent;
 //to render a react component provide with tagName.  // rendering the functional component.
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent, {}, void 0, false, {
-    fileName: "App.js",
-    lineNumber: 162,
-    columnNumber: 13
-}, undefined));
+// root.render(<HeadingComponent/>);
 // let's create another functional component 
 const TitleComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
         className: "heading",
@@ -863,11 +859,7 @@ const HeadingComponent2 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         columnNumber: 5
     }, undefined);
 _c2 = HeadingComponent2;
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent2, {}, void 0, false, {
-    fileName: "App.js",
-    lineNumber: 185,
-    columnNumber: 13
-}, undefined));
+// root.render(<HeadingComponent2/>);
 // can we write javascript code inside react ? 
 const element = 1000;
 const HeadingComponent3 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -915,32 +907,13 @@ const HeadingComponent4 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         columnNumber: 5
     }, undefined);
 _c4 = HeadingComponent4;
-const HeadingComponent5 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: "putting a javascript inside react component."
-            }, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 221,
-                columnNumber: 4
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent4, {}, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 222,
-                columnNumber: 8
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "App.js",
-        lineNumber: 220,
-        columnNumber: 5
-    }, undefined);
-_c5 = HeadingComponent5;
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent5, {}, void 0, false, {
-    fileName: "App.js",
-    lineNumber: 225,
-    columnNumber: 13
-}, undefined));
+// const HeadingComponent5 = () => (
+//     <div>
+//    <h1>putting a javascript inside react component.</h1>
+//        <HeadingComponent4 />
+//     </div>
+// );
+// root.render(<HeadingComponent5/>);
 //can you put a react element inside another react element ?  Yes
 const elem = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     children: "Putting a react element inside another react element"
@@ -968,7 +941,7 @@ const Title1 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
         lineNumber: 241,
         columnNumber: 5
     }, undefined);
-_c6 = Title1;
+_c5 = Title1;
 const FunctionComponent = ()=>{
     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "container",
@@ -993,7 +966,7 @@ const FunctionComponent = ()=>{
         columnNumber: 5
     }, undefined);
 };
-_c7 = FunctionComponent;
+_c6 = FunctionComponent;
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FunctionComponent, {}, void 0, false, {
     fileName: "App.js",
     lineNumber: 256,
@@ -1004,15 +977,14 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FunctionComponent, {}, void
 2.  <Title1>   </Title1>
 3.  {Title1()}
 */ 
-var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6;
 $RefreshReg$(_c, "HeadingComponent");
 $RefreshReg$(_c1, "TitleComponent");
 $RefreshReg$(_c2, "HeadingComponent2");
 $RefreshReg$(_c3, "HeadingComponent3");
 $RefreshReg$(_c4, "HeadingComponent4");
-$RefreshReg$(_c5, "HeadingComponent5");
-$RefreshReg$(_c6, "Title1");
-$RefreshReg$(_c7, "FunctionComponent");
+$RefreshReg$(_c5, "Title1");
+$RefreshReg$(_c6, "FunctionComponent");
 
   $parcel$ReactRefreshHelpers$4931.postlude(module);
 } finally {

@@ -1,4 +1,4 @@
-4352
+4348
 41F:\Namaste-React\HelloWorldUsingHTML.html133544399830000000 0
 69F:\Namaste-React\node_modules\@parcel\transformer-babel\lib\babel7.js133908524019989658 0
 67F:\Namaste-React\node_modules\@parcel\core\lib\public\Dependency.js133908524051619538 0
@@ -15,7 +15,7 @@
 69F:\Namaste-React\node_modules\@swc\helpers\_\_iterable_to_array_limit133908524062183641 1
 78F:\Namaste-React\node_modules\@parcel\runtime-js\src\helpers\get-worker-url.js133908524036447995 0
 86F:\Namaste-React\node_modules\@swc\helpers\esm\_class_static_private_field_spec_get.js133908524056916587 0
-23F:\Namaste-React\App.js133908533319038150 0
+23F:\Namaste-React\App.js133908536330631777 0
 72F:\Namaste-React\node_modules\lightningcss\node\browserslistToTargets.js133908524030891085 0
 84F:\Namaste-React\node_modules\lmdb\node_modules\node-addon-api\tools\clang-format.js133908524037247542 0
 81F:\Namaste-React\node_modules\posthtml\node_modules\dom-serializer\lib\index.d.ts133908524037987126 0
@@ -35,7 +35,7 @@
 55F:\Namaste-React\node_modules\@parcel\packager-html\lib133908524018525148 1
 64F:\Namaste-React\node_modules\@parcel\error-overlay\lib\index.js133908524037397455 0
 42F:\Namaste-React\node_modules\lmdb\LICENSE133908524037427447 0
-21F:\Namaste-React\dist133908535140287447 1
+21F:\Namaste-React\dist133908538974723241 1
 64F:\Namaste-React\node_modules\posthtml\node_modules\entities\lib133908524044883274 1
 82F:\Namaste-React\node_modules\react-refresh\cjs\react-refresh-babel.development.js133908524022695652 0
 69F:\Namaste-React\node_modules\caniuse-lite\data\features\wake-lock.js133908524077709428 0
@@ -365,7 +365,7 @@
 85F:\Namaste-React\node_modules\caniuse-lite\data\features\css-container-query-units.js133908524057646175 0
 59F:\Namaste-React\node_modules\ordered-binary\dist\index.cjs133908524019144798 0
 81F:\Namaste-React\node_modules\htmlnano\lib\modules\deduplicateAttributeValues.mjs133908524053528486 0
-52F:\Namaste-React\dist\Namaste-React.39b595b8.css.map133908535140144486 0
+52F:\Namaste-React\dist\Namaste-React.39b595b8.css.map133908538974712824 0
 43F:\Namaste-React\node_modules\parent-module133908524023235344 1
 61F:\Namaste-React\node_modules\caniuse-lite\data\regions\FK.js133908524064472272 0
 62F:\Namaste-React\node_modules\@swc\helpers\esm\_ts_metadata.js133908524058875487 0
@@ -847,6 +847,7 @@
 66F:\Namaste-React\node_modules\caniuse-lite\data\features\jpegxr.js133908524068748869 0
 66F:\Namaste-React\node_modules\ordered-binary\assets\powers-dre.png133908524036418000 0
 81F:\Namaste-React\node_modules\htmlnano\lib\modules\deduplicateAttributeValues.cjs133908524030471321 0
+51F:\Namaste-React\dist\Namaste-React.d5080b5a.js.map133908538974712824 0
 62F:\Namaste-React\node_modules\react-dom\server.react-server.js133908524057216420 0
 52F:\Namaste-React\node_modules\entities\lib\generated133908524051889375 1
 68F:\Namaste-React\node_modules\term-size\vendor\windows\term-size.exe133908524027782832 0
@@ -3849,7 +3850,7 @@
 61F:\Namaste-React\node_modules\@parcel\transformer-raw\LICENSE133908524016068297 0
 66F:\Namaste-React\node_modules\@parcel\transformer-raw\package.json133908524025324197 0
 57F:\Namaste-React\node_modules\@parcel\transformer-raw\src133908524022415810 1
-32F:\Namaste-React\dist\index.html133908535139641860 0
+32F:\Namaste-React\dist\index.html133908538974486581 0
 62F:\Namaste-React\node_modules\@parcel\transformer-posthtml\lib133908524024694541 1
 71F:\Namaste-React\node_modules\@parcel\transformer-posthtml\package.json133908524028332510 0
 62F:\Namaste-React\node_modules\@parcel\transformer-posthtml\src133908524026493540 1
@@ -3956,6 +3957,7 @@
 70F:\Namaste-React\node_modules\@parcel\profiler\src\SamplingProfiler.js133908524028352518 0
 75F:\Namaste-React\node_modules\@parcel\runtime-js\src\helpers\.eslintrc.json133908524048681170 0
 78F:\Namaste-React\node_modules\@parcel\runtime-js\src\helpers\node\js-loader.js133908524041365254 0
+47F:\Namaste-React\dist\Namaste-React.d5080b5a.js133908538974558180 0
 80F:\Namaste-React\node_modules\@parcel\runtime-js\src\helpers\node\node-loader.js133908524046482384 0
 82F:\Namaste-React\node_modules\@parcel\runtime-js\src\helpers\browser\css-loader.js133908524034039328 0
 83F:\Namaste-React\node_modules\@parcel\runtime-js\src\helpers\browser\html-loader.js133908524037837207 0
@@ -4344,10 +4346,4 @@
 45F:\Namaste-React\node_modules\.bin\parcel.ps1133908524089585232 0
 45F:\Namaste-React\node_modules\.bin\semver.ps1133908524089585232 0
 61F:\Namaste-React\node_modules\.bin\update-browserslist-db.ps1133908524089585232 0
-48F:\Namaste-React\dist\Namaste-React.39b595b8.css133908535139594202 0
-48F:\Namaste-React\dist\Namaste-React.3a01df49.css133908535007357609 0
-52F:\Namaste-React\dist\Namaste-React.3a01df49.css.map133908535007527513 0
-47F:\Namaste-React\dist\Namaste-React.a1227e1b.js133908535139648112 0
-51F:\Namaste-React\dist\Namaste-React.a1227e1b.js.map133908535140202356 0
-47F:\Namaste-React\dist\Namaste-React.cb65f72e.js133908535007357609 0
-51F:\Namaste-React\dist\Namaste-React.cb65f72e.js.map133908535007577487 0
+48F:\Namaste-React\dist\Namaste-React.39b595b8.css133908538974557527 0

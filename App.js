@@ -124,7 +124,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // const heading = React.createElement("h1",{"id":"heading"},"Namaste React");
 
 // const root = ReactDOM.createRoot(document.getElementById("root"));
- root.render(heading);
+//  root.render(heading);
 //or 
 
 
@@ -141,7 +141,7 @@ const jsxHeading = (
     </h1>
     );
 //Rendering the react element .
-root.render(jsxHeading);
+// root.render(jsxHeading);
 
 //NOTE: we can also create React Element using "<h1>Namaste React by  using JSX </h1>" - no longer use of React.createElement
 
@@ -159,7 +159,7 @@ const HeadingComponent = () => (
 );
 
 //to render a react component provide with tagName.  // rendering the functional component.
-root.render(<HeadingComponent/>);
+// root.render(<HeadingComponent/>);
 
 
 // let's create another functional component 
@@ -182,7 +182,7 @@ const HeadingComponent2 = () => (
     </div>
 );
 
-root.render(<HeadingComponent2/>);
+// root.render(<HeadingComponent2/>);
 
 // can we write javascript code inside react ? 
 
@@ -215,14 +215,14 @@ const HeadingComponent4 = () => (
 );
 
 
-const HeadingComponent5 = () => (
+// const HeadingComponent5 = () => (
   
-    <div>
-   <h1>putting a javascript inside react component.</h1>
-       <HeadingComponent4 />
-    </div>
-);
-root.render(<HeadingComponent5/>);
+//     <div>
+//    <h1>putting a javascript inside react component.</h1>
+//        <HeadingComponent4 />
+//     </div>
+// );
+// root.render(<HeadingComponent5/>);
 
 
 //can you put a react element inside another react element ?  Yes
